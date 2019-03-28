@@ -11,7 +11,7 @@
     },
     "currentServiceplanId": {
       "type": "string",
-      "defaultValue": "",
+      "defaultValue": "node-app-service",
       "metadata": {
         "description": "Optional. Use an existing serviceplan for deployment"
       }
