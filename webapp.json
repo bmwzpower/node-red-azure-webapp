@@ -58,7 +58,7 @@
     },
     "nodeJsVersion":{
       "type": "string",
-      "defaultValue": "8.9.4",
+      "defaultValue": "10.14.1",
       "metadata": {
         "description": "Nodejs version, make sure that the App Service supports the version you set here."
       }
@@ -79,14 +79,17 @@
       "P3": "true",
       "P4": "true"
     },
-    "hostingPlanName": "node-app-service"
+    "hostingPlanName": "node-playground-asp"
   },
   "resources": [
     {
       "apiVersion": "2015-08-01",
       "name": "[variables('hostingPlanName')]",
       "tags": {
-        "displayName": "hosting"
+        "displayName": "hosting",
+        "Billing ID": "205-A134",
+        "Name": "IoT Innovation Builder Program Node Red",
+        "Owner": "CORP ST USA - Jonathan Stone"
       },
       "type": "Microsoft.Web/serverfarms",
       "location": "[resourceGroup().location]",
