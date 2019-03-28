@@ -105,7 +105,10 @@
       "apiVersion": "2015-08-01",
       "name": "[parameters('siteName')]",
       "tags": {
-        "displayName": "site"
+        "displayName": "site",
+        "Billing ID": "205-A134",
+        "Name": "IoT Innovation Builder Program Node Red",
+        "Owner": "CORP ST USA - Jonathan Stone"
       },
       "type": "Microsoft.Web/sites",
       "location": "[resourceGroup().location]",
@@ -143,7 +146,10 @@
             "[concat('Microsoft.Web/Sites/', parameters('siteName'),'/sourcecontrols/web')]"
           ],
           "tags": {
-            "displayName": "AppSettings"
+            "displayName": "AppSettings",
+            "Billing ID": "205-A134",
+            "Name": "IoT Innovation Builder Program Node Red",
+            "Owner": "CORP ST USA - Jonathan Stone"
           },
           "properties": {
             "WEBSITE_NODE_DEFAULT_VERSION": "[parameters('nodeJsVersion')]"
