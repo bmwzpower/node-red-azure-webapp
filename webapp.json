@@ -86,7 +86,7 @@
       "P3": "true",
       "P4": "true"
     },
-    "hostingPlanName": "[concat(parameters('siteName'),'Hosting')]"
+    "hostingPlanName": "node-app-service"
 
   },
   "resources": [
