@@ -1,8 +1,7 @@
 {
   "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
-  "parameters": 
-    {
+  "parameters": {
     "siteName": {
       "type": "string",
       "metadata": {
@@ -44,7 +43,7 @@
     },
     "repoURL": {
       "type": "string",
-      "defaultValue": "https://github.com/bmwzpower/node-red-azure-webapp/node-red-azure-webapp.git",
+      "defaultValue": "https://github.com/jmservera/node-red-azure-webapp.git",
       "metadata": {
         "description": "The URL for the GitHub repository that contains the project to deploy."
       }
@@ -79,7 +78,8 @@
       "P3": "true",
       "P4": "true"
     },
-    "hostingPlanName": "node-app-service"
+    "hostingPlanName": "[concat(parameters('siteName'),'Hosting')]"
+
   },
   "resources": [
     {
