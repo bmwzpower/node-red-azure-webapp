@@ -9,6 +9,13 @@
         "description": "The name of the web app that you wish to create."
       }
     },
+    "currentServiceplanId": {
+      "type": "string",
+      "defaultValue": "",
+      "metadata": {
+        "description": "Optional. Use an existing serviceplan for deployment"
+      }
+    },
     "sku": {
       "type": "string",
       "allowedValues": [
