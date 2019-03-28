@@ -25,7 +25,7 @@
         "P3",
         "P4"
       ],
-      "defaultValue": "F1",
+      "defaultValue": "S1",
       "metadata": {
         "description": "The pricing tier for the hosting plan. For any tier >=B1 Always on will be activated."
       }
