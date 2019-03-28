@@ -6,12 +6,6 @@ To use it just:
 
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fbmwzpower%2Fnode-red-azure-webapp%2Fmaster%2Fwebapp.json" target="_blank"><img src="http://azuredeploy.net/deploybutton.png"/></a>
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fbmwzpower%2Fnode-red-azure-webapp%2Fmaster%2Fwebapp2.json" target="_blank"><img src="http://azuredeploy.net/deploybutton.png"/></a>
-
-<a href="http://armviz.io/#/?load=https://github.com/bmwzpower/node-red-azure-webapp/webapp.json" target="_blank">
-<img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.png"/>
-</a>
-
 Or...
 
 1. Create an Azure Web App
