@@ -7,7 +7,6 @@
       "defaultValue": "",
       "metadata": {
         "description": "Optional. Use an existing serviceplan for deployment"
-      }
     },
     {
     "siteName": {
