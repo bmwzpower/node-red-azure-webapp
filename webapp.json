@@ -9,13 +9,6 @@
         "description": "The name of the web app that you wish to create."
       }
     },
-    "currentServiceplanId": {
-      "type": "string",
-      "defaultValue": "node-app-service",
-      "metadata": {
-        "description": "Optional. Use an existing serviceplan for deployment"
-      }
-    },
     "sku": {
       "type": "string",
       "allowedValues": [
@@ -65,7 +58,7 @@
     },
     "nodeJsVersion":{
       "type": "string",
-      "defaultValue": "10.14.1",
+      "defaultValue": "8.9.4",
       "metadata": {
         "description": "Nodejs version, make sure that the App Service supports the version you set here."
       }
@@ -87,7 +80,6 @@
       "P4": "true"
     },
     "hostingPlanName": "node-app-service"
-
   },
   "resources": [
     {
